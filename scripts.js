@@ -55,6 +55,15 @@
 //     }
 //     }
 
+// let array = [ [2, -3, 5, 10], [25, -24, -11, 100] , [-6, -7, 10] ]
+// for(let items of array){
+//     for(let positiveitems of items){
+//         if(positiveitems>0){
+//             console.log(positiveitems)
+//         }
+//     }
+// }
+
 // let array = [ 2, 3, 5, 10,25,24,11, 100 , 6,7, 10 ]
 // for(let a of array){
 //     if(a%2==0){
@@ -73,5 +82,9 @@
 //     {username: 'levani', status: false},
 //     {username: 'anna', status: true}
 // ]
-// console.log( users[2].status)
+// for(let items of users){
+//    if(items.status==true){
+//     console.log(items);
+//    }
+// }
    
